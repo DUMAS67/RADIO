@@ -1,29 +1,4 @@
-/**class Radio {
-	constructor(X,Y,couleur,bande,width,heigth)
-	    {
-		this.X=X;
-		this.Y=Y;
-		this.couleur=couleur;
-		this.bande=bande;
-		this.width=width;
-		this.heigth=heigth;}
-		
-		selectionPlage(){
-			let frequence = [0,0];
-			switch (this.bande) {
-				case 0: { frequence = [87.5,108]; break;}
-				case 1:{frequence = [3,26];break;}
-				case 2:{ frequence = [0.03,0.3]; break;}
-				default : { frequence = [0,0];}
-				}
-			}
-		
-		afficherRadio() {document.write(this.X);}
-		
-	}
-				
-		const maRadio = new Radio(100,200,4568,0,500,300);*/
-		
+	
 function afficherRadio() {
  var c = document.getElementById("myCanvas");
 
